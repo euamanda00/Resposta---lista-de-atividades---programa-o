@@ -1,0 +1,14 @@
+program menorcomfilhos;
+
+var
+ sexo, ctps, filhos: integer;
+ 
+begin
+write('sexo');
+read (sexo);
+
+write ('ctps');
+read ('ctps');
+
+write ('filhos');
+read (filhos);
