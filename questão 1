@@ -1,0 +1,24 @@
+program BrindeNatal;
+
+var
+nome, estadoCivil: string;
+idade, filhos: integer;
+
+begin
+  writeln ('nome');
+  read(nome);
+  
+  writeln ('idade');
+  read(idade);
+  
+  writeln('estadocivil');
+  read(estadoCivil);
+  
+  writeln('filhos');
+  read(filhos);
+  
+  if (estadoCivil='viuva') or (filhos > 0) then
+  writeln ('Parabens! Voce tera direito ao brinde de natal')
+else
+  writeln ('infelizmente, voce não tera direito ao brinde de natal');
+  end.
