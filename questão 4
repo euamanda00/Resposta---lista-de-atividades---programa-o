@@ -1,0 +1,87 @@
+A) program pares;
+
+var
+ i: integer;
+ 
+begin
+for i:= 1 to 33 do
+if i mod 2 = 0 then
+
+writeln (i);
+end.
+
+B)program impares;
+
+var
+ i: integer;
+ 
+begin
+for i:= 1 to 33 do
+if i mod 2 <>0 then
+
+writeln (i);
+end.
+
+C)program primos;
+
+var
+ i, j, cont: integer;
+ 
+begin
+for i:= 2 to 33 do
+
+begin
+cont:=0;
+for j:= 1 to i do
+if i mod j = 0 then
+cont:= cont +1;
+
+if cont = 2 then
+writeln(i);
+
+end;
+
+end.
+
+D)program maiornumero;
+
+var
+ a, b, c, maior: integer;
+
+
+begin
+read(a);
+read(b);
+read(c);
+
+maior:= a;
+
+if b > maior then
+maior := b;
+if c > maior then
+maior:= c;
+
+writeln ('maior numero: ', maior);
+end.
+
+E)program menornumero;
+
+var
+ a, b, c, menor: integer;
+
+
+begin
+read(a);
+read(b);
+read(c);
+
+menor:= a;
+
+if b > menor then
+menor := b;
+if c > menor then
+menor:= c;
+
+writeln ('menor numero: ', menor);
+end.
+
