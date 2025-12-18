@@ -1,0 +1,15 @@
+program menorcomfilhos;
+
+var
+idade, filhos: integer;
+
+begin
+write('idade');
+read(idade);
+
+write('filhos');
+read(filhos);
+
+if (idade < 18) and (filhos > 0) then
+writeln ('menor de idade com filhos');
+end.
